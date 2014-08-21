@@ -1,7 +1,8 @@
 CordovaPlugin-GooglePlusLogin
 =============================
 
-This is a Cordova Plugin for iOS and Android for basic methods for Google Plus integration 
+This is a Cordova Plugin for Google Plus integration  in iOS and Android.
+
 This plugin for Apache Cordova allows you to use the same Javascript code in Cordova application as you in your cross platform mobile applications. 
 
  Supported on PhoneGap (Cordova) v3.3.0 and above.
@@ -32,7 +33,7 @@ This plugin for Apache Cordova allows you to use the same Javascript code in Cor
 
       3. cordova platform add ios
 
-      4. cordova plugin add https://github.com/cabotdeveloper/CordovaPlugins-GooglePlusPlugin --variable   CLIENT_ID="39879107009-398cp2qn3bkqtlhmd8vp712lkedmkqqq.apps.googleusercontent.com"
+      4. cordova plugin add https://github.com/cabotdeveloper/CordovaPlugin-GooglePlusLogin/tree/master/GooglePlusPlugin --variable   CLIENT_ID="39879107009-398cp2qn3bkqtlhmd8vp712lkedmkqqq.apps.googleusercontent.com"
 
 The CLIENT ID should be given correctly which is created using the package <PackageName>  in Google Developer Console.  The steps are below.
 
@@ -80,7 +81,7 @@ To install the plugin in your app, execute the following (replace variables wher
 
     3. cordova platform add android
 
-    4. cordova plugin add https://github.com/cabotdeveloper/CordovaPlugins-GooglePlusPlugin --variable   CLIENT_ID="39879107009-398cp2qn3bkqtlhmd8vp712lkedmkqqq.apps.googleusercontent.com" 
+    4. cordova plugin add https://github.com/cabotdeveloper/CordovaPlugin-GooglePlusLogin/tree/master/GooglePlusPlugin --variable   CLIENT_ID="39879107009-398cp2qn3bkqtlhmd8vp712lkedmkqqq.apps.googleusercontent.com" 
 
 The CLIENT ID should be given correctly from Google Developer Console which is created using the package <PackageName> 
 
